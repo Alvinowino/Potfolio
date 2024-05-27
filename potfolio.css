@@ -1,0 +1,114 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;padding: 2px 20px;box-shadow:2px 2px 2px 1px rgba(0, 0, 0, alpha);
+}
+ul{list-style: none;display: flex;text-align: right;gap: 25px;}
+
+a{
+        text-decoration: none;color: white;
+font-size: 18px;font-weight: 500;margin-bottom: 15px;
+
+}
+body{
+    background-color:black;color: whitesmoke;
+}
+a:hover,.active{
+    color: aqua;
+}
+.home-content h3 span{
+    color: aqua;font-weight: 200;
+}
+.cv{
+    display: inline-block;
+    padding: 12px 12px;
+    background: aqua;
+    border-radius: 40px;
+    box-shadow: 0 0 10px aqua;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+#img{
+    border-radius: 20%;
+}
+
+button:hover{
+    background-color:white;
+    transform: scale(1.2)translateY(-10px);
+    color: orange;
+    border: 2px solid pink;
+}
+.home-content{
+    display: flex;position: relative;
+    width: 70%;height: 70vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10% 0;
+}
+.home-content h1{
+    font-size: 56px;font-weight: 700;
+    margin: -3px 0;
+}
+header h2 span{
+    color: aqua;
+}
+#about{
+    position: relative;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10% 0;}
+    
+
+
+.contacts{
+    position: relative;
+    height: 70vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10% 0;}
+    
+
+.contacts tr{
+        background-color: #f2f2f2;
+    }
+    
+.contacts tr:hover{
+        background-color: rgba(0, 0, 0, 0.5);
+        color: aqua;color:
+    }
+    
+.contacts td{
+        border: 1px;
+        padding: 8px;
+        color:blue;
+    }
+    
+.contacts th{
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        color: black;align-items: center;justify-content: space-between;}
+.form{
+    gap: 1rem;justify-content: center;
+}
+.socialmedia a{
+    border-radius: 50%;
+    border: 1px solid aqua;
+    margin:0 8px ;
+    box-shadow: inset 0 0 5px aqua,0 0 5px aqua;
+    transition: 0.3s ease;
+    font-size: 24px;
+    color:white;
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    display: inline-block;
+}
+.socialmedia a:hover{
+    transform: scale(1.2)translateY(-10px);
+    color: orange;
+    border: 2px solid pink;
+}
